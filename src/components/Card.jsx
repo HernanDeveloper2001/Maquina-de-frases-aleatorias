@@ -1,7 +1,7 @@
 import { Message } from "./componentsCard/Message";
 import { Author } from "./componentsCard/Author";
 import { Button } from "./componentsCard/Button";
-import { FaTwitter,FaGithub } from 'react-icons/fa';
+import { FaLinkedinIn,FaGithub } from 'react-icons/fa';
 import {connect} from "react-redux"
 import ButtonLink from './componentsCard/ButtonLink';
 import { useState } from "react";
@@ -35,7 +35,8 @@ export const Card = ({messages,handlerColor,colorRandom,handlerMessagesRandom}) 
                     <div className="d-flex w-auto">
                         <div className="px-2">
                             <ButtonLink 
-                                icon={<FaTwitter />}
+                                icon={<FaLinkedinIn />}
+                                link="https://www.linkedin.com/in/hernandariocalvo/"
                                 colorRandom={colorRandom} />
                         </div>
                         <div className="px-2">
